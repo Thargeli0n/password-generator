@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+    <title>Random Password Generator</title>
+</head>
+
+<body>
+    <div id="app">
+        <section class="password-generator">
+            <h1>Random Password Generator</h1>
+            <p>Create strong and secure passwords to keep your account safe online.</p>
+            <div class="generator-container">
+                <!-- <div class="image-container">
+                    <img src="/img/Data_security_28.jpg" class="security-img">
+                </div> -->
+                <div class="generator">
+                    <div class="input-container">
+                        <div class="generator-input">
+                            <div class="password">123232</div>
+                            <span class="">very strong</span>
+                            <div class="control-buttons">
+                                <div class="generate-icon">generate</div>
+                            </div>
+                        </div>
+                        <div class="btn-wrapper">
+                            <button class="copy-button">Copy</button>
+                        </div>
+                    </div>
+                    <div class="generator-settings">
+                        <div class="length-settings">
+                            <label for="length" class="first-text-length">Password length: </label>
+                            <span class="length-text">9</span>
+                            <button class="minus-button ">
+                                <img src="/img/minus-button.svg" alt="minus">
+
+                            </button>
+                            <div class="slider-container">
+                                <input type="range" min="1" max="50" class="slider"
+                                    style="background: linear-gradient(90deg, transparent 18.9796%, rgb(0, 112, 246) 18.0796%);">
+                                <div id="slider-border-part" style="--slider-border-part-width:18.9796%;"></div>
+                            </div>
+                            <button class="plus-button">
+                                <img src="/img/plus-button.svg">
+                            </button>
+                        </div>
+                        <div class="complexity-settings">
+                            <label class="first-text-characters">Characters used: </label>
+                            <div>
+                                <div class="control-checkbox">
+                                    <input type="checkbox" id="uppercase" class="custom-control-input">
+                                    <label for="uppercase" class="custom-control-label text-large">ABC</label>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="control-checkbox">
+                                    <input type="checkbox" id="lowercase" class="custom-control-input">
+                                    <label for="lowercase" class="custom-control-label text-large">abc</label>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="control-checkbox">
+                                    <input type="checkbox" id="numbers" class="custom-control-input">
+                                    <label for="numbers" class="custom-control-label text-large">123</label>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="control-checkbox">
+                                    <input type="checkbox" id="specials" class="custom-control-input">
+                                    <label for="specials" class="custom-control-label text-large">#$&amp;</label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,140 @@
+body {
+    font-family: 'Abyssinica SIL', serif;
+    padding-top: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 56px;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+.generator-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+    border: 1px solid #adb5bd;
+    width: 535px;
+    height: 56px;
+    margin: auto;
+    font-size: 20px;
+}
+
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.length-settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 693px;
+    height: 48px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    font-size: 16px;
+}
+
+.complexity-settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+.first-text-length {
+    display: flex;
+    font-size: 21px;
+    padding-right: 20px;
+    width: 162px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.first-text-characters {
+    font-size: 22px;
+}
+
+.length-text {
+    font-size: 18px;
+    text-align: center;
+    padding-right: 50px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.minus-button {
+    font-size: 16px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.generator-settings {
+    padding-top: 25px;
+
+}
+
+.control-checkbox {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 32px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center;
+    width: 693px;
+    height: 58;
+}
+
+.copy-button {
+    width: 108px;
+    height: 56px;
+    border-radius: 28px;
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    -ms-border-radius: 28px;
+    -o-border-radius: 28px;
+}
+
+.control-buttons {
+    display: flex;
+    width: 68px;
+    height: 56px;
+    align-items: center;
+
+}
+
+.password {
+    display: flex;
+    align-items: center;
+
+    width: 324px;
+    height: 56px;
+    font-weight: 200;
+    margin-left: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    letter-spacing: 0.1px;
+}
